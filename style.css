@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#root {
+    
+    text-align: center;
+}
+#game {
+   padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+}
+.square {
+    min-width: 20px;
+    min-height: 20px;
+    border: 1px solid black;
+}
+.start {
+    background: rgb(3, 248, 15);
+}
+.finish {
+    background: rgb(255, 1, 1);
+}
+.empty {
+    background: rgb(251, 253, 251);
+}
+.passed {
+    background: rgb(244, 248, 3);
+}
+.block {
+    background: rgb(5, 5, 5);
+}
+
